@@ -1,0 +1,51 @@
+#root{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+#network{
+    margin: 20px auto;
+    width: 800px;
+    height: 450px;
+    border: thin solid #4e68ee ;
+    overflow: scroll;
+}
+#network::-webkit-scrollbar{
+    width:0;
+}
+#input-data{
+    margin: 20px auto;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border: thin solid #eeeeed;
+    border-radius: 5px;
+}
+#source,#dest,#find{
+    border: thin solid #eeeeed;
+    width: 50px;
+    height: 30px;
+    font-family: "Open Sans", sans-serif;
+    padding-inline: 10px;
+    margin: auto 10px;
+    border-radius: 5px;
+}
+#source::-webkit-inner-spin-button,#dest::-webkit-inner-spin-button{
+    display: none;
+}
+#find{
+    background-color: #4e68ee;
+    color: white;
+    padding: 5px 10px;
+}
+#find:hover{
+    cursor: pointer;
+}
+
+
